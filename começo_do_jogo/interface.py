@@ -41,12 +41,10 @@ Ganha quem afundar todos os navios do adversário primeiro.\n""")
         break
     else:
         print("opção errada")
-
+print("--------------------------------------------------\n")
 nome = input("Escolha o nome de jogador?  ")
+print("\n--------------------------------------------------")
 
-print("\nQual frota vc quer",nome,"\n")
-
-        
 # E uma repetição pra alguem fazer uma opção errada ele repete 
 while True:
 
