@@ -1,4 +1,5 @@
-from ataque.ataque import abrir_ataque
+from partida.partida import iniciar_partida
+
 import time
 def abrir_tabuleiro():
         while True:
@@ -75,7 +76,7 @@ def abrir_tabuleiro():
 
         mostrar_tabuleiro(tabuleiro)
 
+        from partida.partida import iniciar_partida
 
-         # Abre a pasta 
-        abrir_ataque(tabuleiro, mostrar_tabuleiro)
+        iniciar_partida(tabuleiro, mostrar_tabuleiro)
         

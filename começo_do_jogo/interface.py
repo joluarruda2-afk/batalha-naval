@@ -21,8 +21,7 @@ time.sleep(1)
 while True:
     regras = input("Você quer conhecer as regras?\nsim ou não \n>>")
     if regras == 'sim':
-        print("""   
-Cada jogador tem um tabuleiro, normalmente 10×10.
+        print("""Cada jogador tem um tabuleiro, normalmente 10×10.
 Cada jogador posiciona seus navios no próprio tabuleiro.
 Os navios ocupam várias casas. Exemplo:
 Porta-avião → 4 casas
